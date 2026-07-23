@@ -7,10 +7,11 @@
   --line: #e4e9ef;
   --bg: #ffffff;
   --bg-alt: #f5f8fb;
-  --brand: #0f766e;      /* teal */
-  --brand-dark: #0b5a54;
-  --accent: #2dd4bf;     /* bright teal/AI */
-  --accent-soft: #ccfbf1;
+  --brand: #0f3b2b;      /* CERVR dark green */
+  --brand-dark: #092c20;
+  --accent: #9fce3f;     /* CERVR lime */
+  --accent-soft: #e8f6cf;
+  --eyebrow: #f06321;
   --radius: 16px;
   --shadow: 0 10px 40px -18px rgba(13, 27, 42, 0.35);
   --maxw: 1120px;
@@ -46,7 +47,7 @@ a:hover { color: var(--brand-dark); }
   letter-spacing: .16em;
   font-size: .78rem;
   font-weight: 700;
-  color: var(--brand);
+  color: var(--eyebrow);
   margin: 0 0 .8rem;
 }
 .center { text-align: center; }
@@ -61,8 +62,10 @@ a:hover { color: var(--brand-dark); }
 }
 .nav-wrap { display: flex; align-items: center; justify-content: space-between; height: 68px; }
 .brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 800; color: var(--ink); }
+.brand-mark { border-radius: 8px; display: block; }
+.brand-lockup { display: block; width: auto; }
 .brand-name { font-size: 1.25rem; letter-spacing: -0.03em; }
-.brand-dot { color: var(--brand); }
+.brand-dot { color: var(--accent); }
 .nav { display: flex; align-items: center; gap: 26px; }
 .nav a { color: var(--ink-soft); font-weight: 500; font-size: .95rem; }
 .nav a:hover { color: var(--brand); }
@@ -176,7 +179,6 @@ a:hover { color: var(--brand-dark); }
 
 /* Contact */
 .section-contact { background: linear-gradient(160deg, #0d1b2a, #0b3d3a); color: #fff; }
-.section-contact .eyebrow { color: var(--accent); }
 .section-contact h2 { color: #fff; }
 .section-contact .section-lede { color: rgba(255,255,255,.82); }
 .contact-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 44px; }
